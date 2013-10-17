@@ -5,7 +5,7 @@
     <artifactId>java-concurrency-in-practice</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Java Concurrency In Practice Code</name>
-    
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.source.version>1.7</java.source.version>
@@ -15,11 +15,20 @@
         <version.slf4j>1.7.5</version.slf4j>
         <version.logback>1.0.13</version.logback>
         <version.junit>4.11</version.junit>
-
+        <version.servlet.api>3.1.0</version.servlet.api>
+        
         <!-- Plugin versions -->
         <version.maven.compiler.plugin>3.1</version.maven.compiler.plugin>
     </properties>
-    
+
+    <dependencies>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>${version.servlet.api}</version>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
