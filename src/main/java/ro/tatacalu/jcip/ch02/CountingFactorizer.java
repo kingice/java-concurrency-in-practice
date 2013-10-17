@@ -36,11 +36,11 @@ public class CountingFactorizer implements Servlet {
     }
 
     // ---------- START Dummy Methods ------------------------------------------
-    BigInteger extractFromRequest(ServletRequest req) {
+    private BigInteger extractFromRequest(ServletRequest req) {
         return BigInteger.valueOf(10L);
     }
 
-    BigInteger[] factor(BigInteger input) {
+    private BigInteger[] factor(BigInteger input) {
 
         BigInteger[] ret = new BigInteger[2];
 
@@ -50,7 +50,7 @@ public class CountingFactorizer implements Servlet {
         return ret;
     }
 
-    void encodeIntoResponse(ServletResponse res, BigInteger[] factors) {
+    private void encodeIntoResponse(ServletResponse res, BigInteger[] factors) {
     }
 
     // ---------- END Dummy Methods ------------------------------------------
