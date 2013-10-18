@@ -12,7 +12,7 @@ import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 
-import ro.tatacalu.jcip.ch02.annotations.NotThreadSafe;
+import ro.tatacalu.jcip.annotations.NotThreadSafe;
 
 /**
  * @author tatacalu

@@ -3,7 +3,7 @@
  */
 package ro.tatacalu.jcip.ch02;
 
-import ro.tatacalu.jcip.ch02.annotations.NotThreadSafe;
+import ro.tatacalu.jcip.annotations.NotThreadSafe;
 
 /**
  * @author tatacalu

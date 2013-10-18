@@ -1,7 +1,7 @@
 /**
  * 
  */
-package ro.tatacalu.jcip.ch02.annotations;
+package ro.tatacalu.jcip.annotations;
 
 /**
  * @author tatacalu
